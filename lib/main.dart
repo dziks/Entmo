@@ -1,5 +1,7 @@
-import 'package:entmo/features/Entertainment/Presentation/Pages/entertainment_list.dart';
+// import 'package:entmo/features/Entertainment/Presentation/Pages/entertainment_list.dart';
 import 'package:flutter/material.dart';
+
+import 'core/bottom_nav_bar.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
        
         primarySwatch: Colors.blue,
       ),
-      home: EntertainmentListView(),
+      home: BottomNavBar(),
     );
   }
 }

@@ -25,6 +25,9 @@ dependencies:
   cupertino_icons: ^0.1.2
   # package for search bar
   floating_search_bar: ^0.2.0
+  # Buttom navigation Bar
+  bubbled_navigation_bar: ^0.0.4
+  
 
 dev_dependencies:
   flutter_test:
